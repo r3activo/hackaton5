@@ -1,0 +1,37 @@
+#root{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#root>div{
+    width: 400px;
+    height: 300px;
+    background-color: #ffefdd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#root h3{
+    text-align: center;
+}
+#conversor{
+    display: flex;
+}
+
+#conversor> div{
+    width: 200px;
+    height: 200px;
+}
+.divisa, .monto>input{
+    height: 100px;
+}
+.divisa>select, .monto>input{
+    width: 90%;
+    font-size: xx-large;
+}
+button{
+    width: 100%;
+    height: 30px;
+}
